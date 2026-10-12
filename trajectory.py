@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from llm import Response
+from .llm import Response
 
 @dataclass
 class Step:

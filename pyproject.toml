@@ -6,4 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "TinyAgent"
 version = "0.1.0"
 description = "TinyAgent package"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["TinyAgent"]
+package-dir = {TinyAgent = "."}

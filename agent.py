@@ -1,5 +1,5 @@
-from llm import LLM
-from trajectory import Trajectory
+from .llm import LLM
+from .trajectory import Trajectory
 
 class TinyAgent:
     """极简、模块化智能体框架"""
